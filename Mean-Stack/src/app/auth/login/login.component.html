@@ -1,0 +1,48 @@
+<ons-card>
+  <svg
+    *ngIf="isloading"
+    class="progress-circular progress-circular--indeterminate"
+  >
+    <circle class="progress-circular__background" />
+    <circle
+      class="progress-circular__primary progress-circular--indeterminate__primary"
+    />
+    <circle
+      class="progress-circular__secondary progress-circular--indeterminate__secondary"
+    />
+  </svg>
+  <form *ngIf="!isloading" (submit)="onLogin(loginForm)" #loginForm="ngForm">
+    <div class="flex">
+      <input
+        type="email"
+        class="text-input"
+        placeholder="E-Mail"
+        name="email"
+        ngModel
+        required
+        email
+        minlength="3"
+        #emailInput="ngModel"
+      />
+      <input
+        type="password"
+        class="text-input"
+        placeholder="Password"
+        name="password"
+        ngModel
+        minlength="5"
+        required
+        #passwordInput="ngModel"
+      />
+
+      <button class="button" type="submit">Login</button>
+      <button
+        routerLink="/signup"
+        class="signup button button--light"
+        type="button"
+      >
+        Sign Up
+      </button>
+    </div>
+  </form>
+</ons-card>

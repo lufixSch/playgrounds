@@ -1,0 +1,1 @@
+{"compilerOptions":{"target":"es2015","module":"ESNext","lib":["es2018","dom"],"declarationMap":false,"sourceMap":true,"importHelpers":true,"strict":true,"moduleResolution":"node","typeRoots":["node_modules/@types"],"esModuleInterop":true,"experimentalDecorators":true,"emitDecoratorMetadata":true}}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "332216504850",
+    "firebase_url": "https://isek-a5093.firebaseio.com",
+    "project_id": "isek-a5093",
+    "storage_bucket": "isek-a5093.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332216504850:android:b8a33665fa81d09e5b7ecb",
+        "android_client_info": {
+          "package_name": "com.ise.isek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332216504850-34shp0me5rpb6s12sqa1v1k3fiebjio2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5d5AiqH91Y-smN0hmgWHcEZ-l8HLgQz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332216504850-34shp0me5rpb6s12sqa1v1k3fiebjio2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "332216504850-36sdb5mnphpje3d48l54nlgj5744l7a9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ise.isek"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

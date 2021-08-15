@@ -1,0 +1,18 @@
+<div class="wrapper">
+  <div class="container">
+    <div class="list" *ngFor="let state of data | async" [ngClass]="{ done: state.done }">
+      <p>{{ state.task }}</p>
+
+      <span class="spacer"></span>
+      <button (click)="onDone(state.id, state.done)">
+        <span *ngIf="state.done">Undo</span><span *ngIf="!state.done">done</span>
+      </button>
+      <button (click)="onDelete(state.id)">Delete</button>
+    </div>
+
+    <div class="input">
+      <input type="text" placeholder="TO-DO" [(ngModel)]="input" (keypress)="onKeyPress($event)" />
+      <button (click)="onCreate()">Create</button>
+    </div>
+  </div>
+</div>

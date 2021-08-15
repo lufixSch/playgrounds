@@ -1,0 +1,22 @@
+<ion-content padding>
+  <ion-item>
+    <ion-label>Date</ion-label>
+    <ion-datetime
+      display-format="MM/YYYY"
+      picker-format="MMMM YYYY"
+    ></ion-datetime>
+  </ion-item>
+  <div
+    (panup)="panUp($event)"
+    (pandown)="panDown($event)"
+    (panend)="panEnd($event)"
+    style="height: 300px; width: 100%; background-color: red; position: absolute;"
+    [ngStyle]="style"
+  >
+    <div [ngStyle]="div[0]"></div>
+    <div [ngStyle]="div[1]"></div>
+    <div [ngStyle]="div[2]"></div>
+    <div [ngStyle]="div[3]"></div>
+    <div [ngStyle]="div[4]"></div>
+  </div>
+</ion-content>

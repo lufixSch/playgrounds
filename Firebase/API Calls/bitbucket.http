@@ -1,0 +1,15 @@
+POST http://localhost:5000/fir-89f90/us-central1/bitbucket
+Content-Type: application/json
+
+{
+  "content": "hey"
+}
+
+###
+
+POST https://us-central1-fir-89f90.cloudfunctions.net/bitbucket
+Content-Type: application/json
+
+{
+  "content": "hey"
+}

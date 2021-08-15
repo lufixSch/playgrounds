@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>332216504850-36sdb5mnphpje3d48l54nlgj5744l7a9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.332216504850-36sdb5mnphpje3d48l54nlgj5744l7a9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDMZZrHJ5QiHjxaxhKnYKWr0m4hSot7YhM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>332216504850</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ise.isek</string>
+	<key>PROJECT_ID</key>
+	<string>isek-a5093</string>
+	<key>STORAGE_BUCKET</key>
+	<string>isek-a5093.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:332216504850:ios:7affb366f7465e315b7ecb</string>
+	<key>DATABASE_URL</key>
+	<string>https://isek-a5093.firebaseio.com</string>
+</dict>
+</plist>

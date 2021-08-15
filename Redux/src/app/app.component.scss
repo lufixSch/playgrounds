@@ -1,0 +1,77 @@
+.wrapper {
+  display: flex;
+  flex-flow: row;
+
+  .container {
+    flex: 1;
+  }
+}
+
+.list {
+  display: flex;
+
+  margin: 16px;
+  padding: 8px;
+  border-radius: 10px;
+
+  p {
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+
+    margin: unset;
+  }
+
+  button {
+    display: none;
+  }
+
+  &:hover {
+    background: #bebaba;
+    button {
+      display: inline-block;
+    }
+  }
+
+  &.done p {
+    text-decoration-line: line-through;
+    color: #838282;
+  }
+}
+
+.input {
+  display: flex;
+
+  input {
+    font-size: 14pt;
+    border: none;
+    border-bottom: 0.5px solid;
+
+    width: 100%;
+    margin: 16px;
+    padding: 8px;
+
+    outline: unset !important;
+  }
+
+  button {
+    margin: 16px;
+    padding: 8px;
+  }
+}
+
+button {
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(27, 29, 150);
+  color: white;
+  width: 100px;
+  padding: 4px;
+  margin: 0 8px;
+
+  outline: unset !important;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

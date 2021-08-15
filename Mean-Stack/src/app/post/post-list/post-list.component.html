@@ -1,0 +1,71 @@
+<ons-card *ngIf="posts.length > 0 && !isloading">
+  <div *ngFor="let post of posts">
+    <ons-list-item expandable modifier="longdivider">
+      <div id="title">{{ post.title }}</div>
+
+      <div class="expandable-content">
+        <img [src]="post.imagePath" [alt]="post.title" />
+        <p id="content">{{ post.content }}</p>
+        <div id="buttons" *ngIf="isAuthenticated">
+          <ons-button
+            class="float_right"
+            id="edit"
+            [routerLink]="['/edit', post.id]"
+          >
+            Edit
+          </ons-button>
+          <ons-button
+            class="float_right"
+            id="delete"
+            modifier="cta"
+            (click)="onDelete(post.id)"
+          >
+            Delete
+          </ons-button>
+        </div>
+      </div>
+    </ons-list-item>
+    <hr />
+  </div>
+</ons-card>
+<ons-card *ngIf="isloading">
+  <svg class="progress-circular progress-circular--indeterminate">
+    <circle class="progress-circular__background" />
+    <circle
+      class="progress-circular__primary progress-circular--indeterminate__primary"
+    />
+    <circle
+      class="progress-circular__secondary progress-circular--indeterminate__secondary"
+    />
+  </svg>
+</ons-card>
+<ons-card *ngIf="posts.length <= 0 && !isloading">
+  <p>No Posts added yet!</p>
+</ons-card>
+<ons-tabbar>
+  <div class="space">
+    <div class="container">
+      <span>Items per Page</span>
+      <ons-select style="display: none" modifier="underbar">
+        <option>5</option> <option>10</option> <option>25</option>
+        <option>50</option> <option>100</option>
+      </ons-select>
+      <select class="select-input" (change)="onChange($event)">
+        <option *ngFor="let option of pagination.pageSizeOptions">
+          {{ option }}
+        </option>
+      </select>
+      <span
+        >{{ pagination.postNumbers.begin }} -
+        {{ pagination.postNumbers.end }} of {{ pagination.totalPosts }}</span
+      >
+      <div>
+        <ons-button id="backward" modifier="quiet" (click)="onPageBackward()"
+          ><ons-icon size="20px" icon="fa-angle-left"></ons-icon></ons-button
+        ><ons-button id="forward" modifier="quiet" (click)="onPageForward()"
+          ><ons-icon size="20px" icon="fa-angle-right"></ons-icon
+        ></ons-button>
+      </div>
+    </div>
+  </div>
+</ons-tabbar>

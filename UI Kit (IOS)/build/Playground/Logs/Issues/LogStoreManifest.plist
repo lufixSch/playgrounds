@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>B4255327-2036-40C4-8B0C-0907FDCE1C02</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>B4255327-2036-40C4-8B0C-0907FDCE1C02.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>Playground-asjscmmgtnycitdrqnrmyorficlw</string>
+			<key>timeStartedRecording</key>
+			<real>608743256.35659301</real>
+			<key>timeStoppedRecording</key>
+			<real>608743256.35686696</real>
+			<key>title</key>
+			<string>Build target Playground</string>
+			<key>uniqueIdentifier</key>
+			<string>B4255327-2036-40C4-8B0C-0907FDCE1C02</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

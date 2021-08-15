@@ -1,0 +1,6 @@
+POST https://discordapp.com/api/webhooks/679654280961064960/OOkTN88TNInnzu8oKzNP4_8QjyQiujijALi_3I66XwezQ4CdedWF-kptZGOQpSqw8-KN
+content-type: application/json
+
+{
+  "content": "some content"
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+ons-card {
+  width: 80vw;
+  margin: auto;
+}
+
+.text-input {
+  width: calc(50% - 20px);
+  margin: 10px;
+  border-bottom: 1px rgba(255, 255, 255, 0.05) solid;
+}
+
+.flex {
+  width: 100%;
+}
+
+button {
+  margin: 10px;
+  width: 100px;
+}
+
+.signup:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}

@@ -1,0 +1,22 @@
+ons-tabbar {
+  height: 50px;
+  float: right;
+}
+
+span {
+  margin: auto 10px;
+  padding: 0 10px;
+  float: left;
+}
+
+button {
+  margin: 7px 10px;
+  height: 30px;
+  width: 100px;
+  line-height: normal;
+  float: right;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}

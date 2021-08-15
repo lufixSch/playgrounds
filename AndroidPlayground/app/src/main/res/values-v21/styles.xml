@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SpinnerDatePicker" parent="android:Widget.Material.Light.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryShade</item>
+        <item name="android:textColorPrimary">@color/colorText</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        <item name="colorError">@color/colorWarn</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:colorForeground">@color/colorTextShade</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+
+        <item name="android:timePickerStyle">@style/MyTimePickerWidgetStyle</item>
+
+    </style>
+
+    <style name="MyTimePickerWidgetStyle" parent="@android:style/Widget.Material.Light.TimePicker">
+        <item name="android:headerBackground">@color/colorPrimary</item>
+        <item name="android:numbersBackgroundColor">@color/colorSurface</item>
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+</resources>

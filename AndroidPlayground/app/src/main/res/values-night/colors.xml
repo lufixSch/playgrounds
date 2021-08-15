@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorText">#ffffff</color>
+    <color name="colorTextShade">#808080</color>
+    <color name="colorTextVariant">#ffffff</color>
+    <color name="colorTextVariantShade">#808080</color>
+
+    <color name="colorPrimary">#046488</color>
+    <color name="colorPrimaryShade">#023244</color>
+    <color name="colorWarn">#f44336</color>
+    <color name="colorSuccess">#8bc34a</color>
+    <color name="colorBackground">#0e0e0e</color>
+    <color name="colorBackgroundShade">#3e3e3e</color>
+    <color name="colorSurface">#202021</color>
+</resources>

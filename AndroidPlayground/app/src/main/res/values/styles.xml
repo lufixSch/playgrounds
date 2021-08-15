@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryShade</item>
+        <item name="android:textColorPrimary">@color/colorText</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        <item name="colorError">@color/colorWarn</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:colorForeground">@color/colorTextShade</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+
+        <item name="colorControlNormal">@color/colorBackgroundShade</item>
+
+    </style>
+
+    <style name="NativeScriptToolbarStyleBase" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat</item>
+
+    </style>
+
+    <style name="NativeScriptToolbarStyle" parent="NativeScriptToolbarStyleBase">
+    </style>
+
+</resources>

@@ -1,0 +1,65 @@
+.float_right {
+  float: right;
+}
+
+ons-card {
+  width: 80vw;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+#edit,
+#delete {
+  width: 100px;
+  margin-left: 15px;
+}
+
+#content {
+  float: left;
+}
+
+img {
+  float: left;
+  width: 25%;
+  margin: 10px 10px 10px 0;
+  border-radius: 3px;
+}
+
+#buttons {
+  clear: both;
+}
+
+ons-tabbar {
+  z-index: -2;
+}
+
+.space {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container span {
+  margin: 15px 10px;
+  display: flex;
+}
+
+.container ons-select,
+.container select {
+  margin: 8.5px 10px;
+  display: flex;
+}
+
+.container div {
+  display: flex;
+}
+
+#forward,
+#backward {
+  margin: 2.5px 10px;
+  line-height: 35px;
+}

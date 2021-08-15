@@ -1,0 +1,50 @@
+// Import app variables
+@import "app-variables";
+
+// Import the theme’s main ruleset - both index and platform specific.
+//@import '~nativescript-theme-core/scss/index';
+//@import '~nativescript-theme-core/scss/platforms/index.android';
+
+// Import common styles
+@import "app-common";
+
+// Place any CSS rules you want to apply only on Android here
+.background {
+  background-color: var(--background);
+}
+
+:elevation-1 {
+  android-elevation: 1;
+}
+
+:elevation-2 {
+  android-elevation: 2;
+}
+
+:elevation-3 {
+  android-elevation: 3;
+}
+
+:elevation-4 {
+  android-elevation: 4;
+}
+
+:elevation-6 {
+  android-elevation: 6;
+}
+
+:elevation-8 {
+  android-elevation: 8;
+}
+
+:elevation-12 {
+  android-elevation: 12;
+}
+
+:elevation-16 {
+  android-elevation: 16;
+}
+
+:elevation-24 {
+  android-elevation: 24;
+}

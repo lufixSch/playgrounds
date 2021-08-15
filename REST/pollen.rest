@@ -1,0 +1,5 @@
+GET https://www.pollenwarndienst.at/index.php?eID=appinterface&action=getHourlyLoadData&type=zip&value=8010&country=AT&lang_id=1&pure_json=1&day=0 HTTP/1.1
+
+###
+
+GET https://www.pollenwarndienst.at/index.php?eID=appinterface&action=getHourlyLoadData&type=zip&value=8010&country=AT&lang_id=1&pure_json=1&day=1 HTTP/1.1

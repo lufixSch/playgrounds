@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorText">#0f170f</color>
+    <color name="colorTextShade">#878b87</color>
+    <color name="colorTextVariant">#ffffff</color>
+    <color name="colorTextVariantShade">#cccccc</color>
+
+    <color name="colorPrimary">#03425b</color>
+    <color name="colorPrimaryShade">#81a0ad</color>
+    <color name="colorWarn">#e53935</color>
+    <color name="colorSuccess">#7cb342</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorBackgroundShade">#cccccc</color>
+    <color name="colorSurface">#f7f7f7</color>
+</resources>
