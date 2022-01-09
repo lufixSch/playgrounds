@@ -1,0 +1,13 @@
+{
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit,  ColumnLimit: 120, PointerAlignment: Left, IndentWidth: 2, BreakBeforeBraces: Custom }",
+  "C_Cpp.default.intelliSenseMode": "gcc-x64",
+  // C++ Settings
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "C_Cpp.updateChannel": "Insiders",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.tabSize": 2
+}
