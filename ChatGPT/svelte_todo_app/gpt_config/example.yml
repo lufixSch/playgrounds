@@ -1,0 +1,73 @@
+description: 'A general description of my app'
+
+interfaces:
+  - name: Interface1
+    description: 'A type interface for usage in components and pages'
+    props:
+      prop1:
+        type: string
+        description: 'The first property'
+      prop2:
+        type: number
+        description: 'The second property'
+  - name: Interface2
+    description: 'Another type interface'
+    props:
+      prop1:
+        type: Interface1
+        description: 'The first property'
+
+components:
+  - name: Component1
+    description: 'A reusable component that does something'
+    props:
+      prop1:
+        type: string
+        description: 'The first property'
+        default: 'Hello'
+      prop2:
+        type: number
+        description: 'The second property'
+        default: 42
+    events:
+      click:
+        description: 'Fires when the component is clicked'
+    components:
+      - Component2
+      - name: Component3
+        description: 'Another reusable component that does something else'
+        props:
+          prop1:
+            type: boolean
+            description: 'The first property'
+            default: false
+          prop2:
+            type: string
+            description: 'The second property'
+            default: 'World'
+        events:
+          hover:
+            description: 'Fires when the mouse hovers over the component'
+
+pages:
+  - name: Page1
+    description: 'The home page'
+    layout: default
+    components:
+      - Component1
+      - name: Component2
+        props:
+          prop1: true
+          prop2: 'some text'
+    route: /
+
+  - name: Page2
+    description: 'A page that shows something'
+    layout: custom
+    components:
+      - name: Component1
+        props:
+          prop1: 'some other text'
+          prop2: 10
+      - Component2
+    route: /page2

@@ -1,0 +1,58 @@
+description: 'A single page todo app'
+
+interfaces:
+  - name: ToDoItem
+    description: 'A single todo item'
+    props:
+      id:
+        type: number
+        description: 'The id of the todo item'
+      title:
+        type: string
+        description: 'The text of the todo item'
+      completed:
+        type: boolean
+        description: 'Whether the todo item is completed or not'
+      deadline:
+        type: date
+        description: 'The deadline of the todo item'
+
+pages:
+  - name: home
+    description: 'Home page which displays the ToDo App'
+    layout: default
+    route: /
+    props:
+      todo_items:
+        type: list[ToDoItem]
+        description: 'List of all ToDo items'
+        default: []
+    components:
+      - name: create_todo
+        description: 'A form to create a new ToDo item'
+        events:
+          create:
+            description: 'Fires when the create button is clicked'
+      - name: todo_items
+        descriptions: 'List of all ToDo items'
+        props:
+          items:
+            type: list[ToDoItem]
+            description: 'List of all ToDo items'
+        events:
+          delete:
+            description: 'Fires when the delete button is clicked'
+          complete:
+            description: 'Fires when the complete button is clicked'
+        components:
+          - name: todo_item
+            description: 'A single ToDo item'
+            props:
+              item:
+                type: ToDoItem
+                description: 'The ToDo item to display'
+            events:
+              delete:
+                description: 'Fires when the delete button is clicked'
+              complete:
+                description: 'Fires when the complete button is clicked'
